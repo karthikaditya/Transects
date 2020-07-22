@@ -7,3 +7,5 @@ Where 5 is slice_width: the distance between perpendiculars, 10 is the edge_leng
 All distance units in MAP UNITS.
 
 This repo is created by making modifications to https://github.com/tasmi/Transects, which is used to create perpendicualr boxes. 
+
+Requires GDAL and Shapely packages.
