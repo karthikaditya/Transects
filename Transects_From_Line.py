@@ -10,7 +10,7 @@ import json
 def cut(line, distance):
     # Cuts a line in two at a distance from its starting point
     if distance <= 0.0 or distance >= line.length:
-        return [shpgeo.LineString(line)]
+        return [shpgeo.LineString(line), None]
     coords = list(line.coords)
     for i, p in enumerate(coords):
         pdist = line.project(shpgeo.Point(p))
